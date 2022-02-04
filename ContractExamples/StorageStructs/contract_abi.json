@@ -1,0 +1,25 @@
+[
+    {
+        "members": [
+            {
+                "name": "X",
+                "offset": 0,
+                "type": "felt"
+            }
+        ],
+        "name": "HexTile",
+        "size": 1,
+        "type": "struct"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hexTile",
+                "type": "HexTile"
+            }
+        ],
+        "name": "vote",
+        "outputs": [],
+        "type": "function"
+    }
+]
