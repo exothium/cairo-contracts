@@ -2,9 +2,9 @@
 Roadmap for fast learning and documentation of the process and snippets
 
 **Understand possible variables**
-- [ ] Declare and mutate them
+- [x] Declare and mutate them
 - [ ] Create List of important variables
-	- [ ] Create snippets for declaration and mutation
+	- [x] Create snippets for declaration and mutation
 
 **Understand possible operators**
 - [ ] List the native operators
