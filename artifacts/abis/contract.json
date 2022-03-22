@@ -1,0 +1,106 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "vehicle_id",
+                "type": "felt"
+            }
+        ],
+        "name": "get_owner",
+        "outputs": [
+            {
+                "name": "owner_address",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "vehicle_id",
+                "type": "felt"
+            }
+        ],
+        "name": "get_signer",
+        "outputs": [
+            {
+                "name": "signer_address",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "vehicle_id",
+                "type": "felt"
+            },
+            {
+                "name": "state_id",
+                "type": "felt"
+            }
+        ],
+        "name": "get_state",
+        "outputs": [
+            {
+                "name": "state_hash",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "vehicle_id",
+                "type": "felt"
+            },
+            {
+                "name": "signer_address",
+                "type": "felt"
+            }
+        ],
+        "name": "register_vehicle",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "vehicle_id",
+                "type": "felt"
+            },
+            {
+                "name": "state_id",
+                "type": "felt"
+            },
+            {
+                "name": "state_hash",
+                "type": "felt"
+            }
+        ],
+        "name": "attest_state",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "vehicle_id",
+                "type": "felt"
+            },
+            {
+                "name": "signer_address",
+                "type": "felt"
+            }
+        ],
+        "name": "set_signer",
+        "outputs": [],
+        "type": "function"
+    }
+]
